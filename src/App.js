@@ -3,7 +3,7 @@ import { useState } from "react";
 import Join from "./join";
 import Chat from "./chat";
 
-const socket = io("http://localhost:3001");
+const socket = io("https://vercel-backend-i6bu.onrender.com");
 
 function App() {
 
